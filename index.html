@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon"/>
+
+    <!-- imports CSS -->
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./static/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+
+    <title>Portifolio Page</title>
+</head>
+<body>
+
+    <i class="bi bi-list menu-mobile"></i>
+
+    <aside id="header">
+        <section class="profile">
+            <img src="./static/img/perfil.png" alt="Foto Perfil" />
+            <h1>Yuri Nunes</h1>
+            <div class="social-links mt-4 text-center">
+                <a href="#" target="_blank">
+                <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" target="_blank">
+                <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" target="_blank">
+                <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <nav id="navbar" class="nav-menu">
+            <ul class="nav flex-column">
+
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">
+                    <i class="bi bi-house" aria-hidden="true"></i> Inicio</a>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#sobre">
+                    <i class="bi bi-person" aria-hidden="true"></i> Sobre</a>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#habilidades">
+                    <i class="bi bi-list-check" aria-hidden="true"></i>Habilidades</a>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#curriculo">
+                    <i class="bi bi-file-earmark" aria-hidden="true"></i>Curriculo</a>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#portifolio">
+                    <i class="bi bi-collection" aria-hidden="true"></i> Portfólio</a>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#contato">
+                    <i class="bi bi-envelope" aria-hidden="true"></i> Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <main id="main">
+        <!-- Apresentação e Background -->
+        <section id="inicio">
+
+            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-white text-shadow">Yuri Nunes</h2>
+                <span id="subtitle" class="text-white text-shadow">Software Engineer</span>
+            </div>
+
+            <div class="col-md-7 d-flex justify-content-end align-items-end">
+                <div id="arraste" class="d-flex align-items-center">
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                    <a href="#sobre">Arraste para mais!</a>
+                </div>
+            </div>
+
+        </section>
+        <!-- Foto e Descrição -->
+        <section id="sobre">
+
+            <div class="row w-100">
+                <div class="col-md-12" data-anime="down">
+                    <h2 class="pt-3">Sobre</h2>
+                    <p>Knowledge is Power!</p>
+                </div>
+                
+                <div class="row mt-4">
+
+                    <div class="col-md-4">
+                        <img
+                            class="img-fluid shadow"
+                            src="./static/img/perfil.png"
+                            alt="Foto perfil"
+                            data-anime="left"
+                        >
+                    </div>
+
+                    <div class="col-md-8" data-anime="right">
+                        <h3>Titulo</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+                            qui commodi fuga labore deleniti quibusdam, tempora aliquid
+                            maiores, corrupti minima omnis. Repellendus ratione illum
+                            laborum ducimus at accusantium maiores aliquam.
+                        </p>
+                        <!-- Row de Listas -->
+                        <div class="row mt-3 mb-3">
+                            <div class="col-md-6">
+                                <ul class="list-group list-group-flush fs-5">
+                                    <li class="list-group-item">
+                                        An item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        A second item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        A third item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        A fourth item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        And a fifth one: <span class="fw-lighter">Description</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-6">
+                                <ul class="list-group list-group-flush fs-5">
+
+                                    <li class="list-group-item">
+                                        An item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        A second item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        A third item: <span class="fw-lighter">Description</span>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        A fourth item: <span class="fw-lighter">Description</span>
+                                    </li>
+                                    
+                                    <li class="list-group-item">
+                                        And a fifth one: <span class="fw-lighter">Description</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Container com Barras de Progresso -->
+        <section id="habilidades">
+
+            <div class="container pb-5">
+
+                <h2 class="pt-5">Habilidades</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptas voluptates itaque et cum similique quidem voluptatibus dignissimos.
+                </p>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Javascript</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Javascript</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="w-50  me-auto ms-auto">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Trabalho em Equipe</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Proatividade</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Comunicação</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Empatia</p>
+                        <div class="progress">
+                            <div class="progress-bar" data-anime="left" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Tópicos Organizados em Grid -->
+        <section id="curriculo">
+
+            <div class="container pb-5">
+                <h2 class="pt-3 pb-4">Currículo</h2>
+
+                <div class="row">
+                    <!-- Coluna Educação -->
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Educação</h3>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Curso 1</h4>
+                            <h5>data</h5>
+                            <p><em>lucal</em></p>
+                            <p>descrição</p>
+                        </div>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Curso 1</h4>
+                            <h5>data</h5>
+                            <p><em>lucal</em></p>
+                            <p>descrição</p>
+                        </div>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Curso 1</h4>
+                            <h5>data</h5>
+                            <p><em>lucal</em></p>
+                            <p>descrição</p>
+                        </div>
+                    </div>
+                    <!-- Coluna Profissional -->
+                    <div class="row col-md-6">
+                        <h3 class="cv-title">Profissional</h3>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Curso 1</h4>
+                            <h5>data</h5>
+                            <p><em>lucal</em></p>
+                            <p>descrição</p>
+                        </div>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Curso 1</h4>
+                            <h5>data</h5>
+                            <p><em>lucal</em></p>
+                            <p>descrição</p>
+                        </div>
+
+                        <div class="cv-item" data-anime="up">
+                            <h4>Curso 1</h4>
+                            <h5>data</h5>
+                            <p><em>lucal</em></p>
+                            <p>descrição</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Carroussel Interativo -->
+        <section id="portifolio">
+
+            <div class="container pb-5 pt-5" data-anime="left">
+
+                <h2 class="pb-4">Portifólio</h2>
+
+                <div id="carouselPortifolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <!-- <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                    </div>
+
+                    <div class="carousel-inner">
+                        <!-- Primeira Aba do Carousel -->
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- Coluna do Card -->
+                                <div class="col">
+                                    <div class="card">
+                                    <img src="../static/img/prog3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" target='_blank' class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                            <a href="#" target='_blank'class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- Coluna do Card -->
+                                <div class="col">
+                                    <div class="card">
+                                    <img src="../static/img/prog1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" target='_blank' class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                            <a href="#" target='_blank'class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- Coluna do Card -->
+                                <div class="col">
+                                    <div class="card">
+                                    <img src="../static/img/prog2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" target='_blank' class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                            <a href="#" target='_blank'class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                            </div> 
+
+                        </div>
+                        <!-- Segunda Aba do Carousel -->
+                        <div class="carousel-item" data-bs-interval="2000">
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- Coluna do Card -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/prog3.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="#" target='_blank' class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                                <a href="#" target='_blank'class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Coluna do Card -->
+                                <div class="col">
+                                    <div class="card">
+                                    <img src="../static/img/prog5.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="#" target='_blank' class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                            <a href="#" target='_blank'class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- Coluna do Card -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="../static/img/prog6.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="#" target='_blank' class="btn btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                                <a href="#" target='_blank'class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortifolio" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPortifolio" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Compos de Endereço e Formulário de Envio de E-mail -->
+        <section id="contato">
+
+            <div class="container mb-5">
+
+                <h2 class="pt-3 pb-3 ">Contato:</h2>
+                
+                <div class="row">
+
+                    <!-- Contato Endereço -->
+                    <div class="col-md-5"data-anime="up">
+                        <!-- Campos do Endereço -->
+                        <div class="card p-5 shadow border-0">
+
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i>Localização</h4>
+                                <p>Goiania-Goiás</p>
+                            </div>
+
+                            <div class="e-mail">
+                                <h4><i class="bi bi-envelope"></i>E-mail:</h4>
+                                <p>inv72kmaster@gmail.com</p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.
+                            1653980268543!2d-49.24313518606595!3d-16.718597163794993!2m3!1f0!2f0!3f0!3m2!
+                            1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0582a694f41%3A0xe03c6e5c4e3b4fbc!2sR.
+                            %20P-2%20-%20Vila%20Redencao%2C%20Goi%C3%A2nia%20-%20GO%2C%2074850-150!
+                            5e0!3m2!1spt-BR!2sbr!4v1662522246928!5m2!1spt-BR!2sbr" 
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade" class="w-100">
+                            </iframe>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Contato Mensagem -->
+                    <div class="col-md-7 mt-5 mt-md-0" data-anime="left">
+
+                        <div class="card p-5 h-100 shadow border-0">
+                            <!-- No Campo ####### substituir por chave obtida pela staticforms no e-mail cadastrado -->
+                            <form class="row g-3" action='https://api.staticforms.xyz/submit' method="POST" name="formContato">
+                                <input type="hidden" name="accessKey" value="###############">
+                                <!-- Substituir @@@@@@@@ por link de endereço /#contato -->
+                                <input type="hidden" name="redirectTo" value="@@@@@@@@@@@@@@#contato">
+                                <!-- Campo Nome -->
+                                <div class="col-md-6">
+                                  <label for="nome" class="form-label">Nome</label>
+                                  <input type="text" class="form-control" id="nome"  placeholder="Digite seu Nome" name="name" required maxlength="25" minlength="2">
+                                </div>
+                                <!-- Campo E-mail -->
+                                <div class="col-md-6">
+                                  <label for="email" class="form-label">E-mail</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Digite seu E-mail" name="email" required maxlength="50">
+                                </div>
+                                <!-- Campo Mensagem -->
+                                <div class="col-12">
+                                  <label for="mensagem" class="form-label" >Mensagem</label>
+                                  <textarea rows="10" type="text" class="form-control " id="mensagem" placeholder="Digite sua Mensagem." name="message" required maxlength="500"></textarea>
+                                </div>
+                                <!-- Botao Enviar -->
+                                <div  class="col-12 d-flex justify-content-center mt-4">
+                                  
+                                    <button id="btn-enviar" type="submit" class="btn btn-primary" disabled="disabled">Enviar Mensagem</button>
+                                
+                                    <button id="btn-enviar-mensagem" class="btn btn-primary" type="button" disabled>
+                                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                    Enviando...
+                                    </button>
+                            
+                                    <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <i class="bi bi-check-circle-fill"></i> Mensagem Enviada com sucesso!
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+
+
+                                </div>
+
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                                <script>
+                                    var inputs = $('input').on('keyup', verificarInputs);
+                                    function verificarInputs() {
+                                        const preenchidos = inputs.get().every(({value}) => value)
+                                        $('button').prop('disabled', !preenchidos);
+                                    }
+                                </script>
+
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- Rodapé -->
+    <footer id="footer">
+
+        <div class="container">
+            <div class="text-center">
+                &copy; Copyright <strong>Yuri Nunes</strong>
+            </div>
+        </div>
+
+    </footer>
+
+    
+    <script src="./static/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./static/script.js"></script>
+</body>
+</html>
