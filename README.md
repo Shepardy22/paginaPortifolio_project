@@ -13,10 +13,10 @@ Página de portifólio e contato desenvolvido em HTML CSS e JS
 
 ### Cronograma de Features  
 
-- [X] v0.1 Bibliotecas e menu lateral.
-- [X] v0.2 Grid Layout do Main.
-- [X] v0.3 Section Inicio.
-- [ ] v0.4 Section Sobre.
+- [X] [v0.1](https://github.com/Shepardy22/paginaPortifolio_project/commit/a40136ab8d138a1e77964553c3daf2cd3ffea3bf) Bibliotecas e menu lateral.
+- [X] [v0.2](https://github.com/Shepardy22/paginaPortifolio_project/commit/af589186ec37e3347748a44aaeb9f0a6f9a861b8) Grid Layout do Main.
+- [X] [v0.3](https://github.com/Shepardy22/paginaPortifolio_project/commit/af589186ec37e3347748a44aaeb9f0a6f9a861b8) Section Inicio.
+- [X] v0.4 Section Sobre.
 - [ ] v0.5 Section Habilidades.
 - [ ] v0.6 Section Curriculum.
 - [ ] v0.7 Section Portifólio.
