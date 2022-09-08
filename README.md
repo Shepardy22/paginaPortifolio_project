@@ -14,7 +14,7 @@ Página de portifólio e contato desenvolvido em HTML CSS e JS
 ### Cronograma de Features  
 
 - [X] v0.1 Bibliotecas e menu lateral.
-- [ ] v0.2 Grid Layout do Main.
+- [X] v0.2 Grid Layout do Main.
 - [ ] v0.3 Section Inicio.
 - [ ] v0.4 Section Sobre.
 - [ ] v0.5 Section Habilidades.
