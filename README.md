@@ -1,5 +1,7 @@
-# paginaPortifolio_project
-Página de portifólio e contato desenvolvido em HTML CSS e JS 
+# Página de Portiflio
+Página de portifólio e contato Responsiva, desenvolvido em HTML CSS e JS 
+
+https://shepardy22.github.io/paginaPortifolio_project/
 
 ## Tecnologias Utilizadas
 - [HTML5](https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf)
@@ -29,4 +31,4 @@ Página de portifólio e contato desenvolvido em HTML CSS e JS
 ### Atualizações futuras.
  - Separação de Classes para cores.
  - Função Trocar Tema.
- - Seção de Arquiteturas se Software intererativas! :trophy:
+ - Seção de Arquiteturas de Software intererativas! :trophy:
