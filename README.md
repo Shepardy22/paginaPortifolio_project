@@ -17,8 +17,8 @@ Página de portifólio e contato desenvolvido em HTML CSS e JS
 - [X] [v0.2](https://github.com/Shepardy22/paginaPortifolio_project/commit/af589186ec37e3347748a44aaeb9f0a6f9a861b8) Grid Layout do Main.
 - [X] [v0.3](https://github.com/Shepardy22/paginaPortifolio_project/commit/af589186ec37e3347748a44aaeb9f0a6f9a861b8) Section Inicio.
 - [X] [v0.4](https://github.com/Shepardy22/paginaPortifolio_project/commit/60996cd092577341531daacb0da540eb101551d5) Section Sobre.
-- [X] v0.5 Section Habilidades.
-- [ ] v0.6 Section Curriculum.
+- [X] [v0.5](https://github.com/Shepardy22/paginaPortifolio_project/commit/a2e4db12520a79d1342d475b187b93651381d76d) Section Habilidades.
+- [X] v0.6 Section Curriculum.
 - [ ] v0.7 Section Portifólio.
 - [ ] v0.8 Section Contato.
 - [ ] v0.9 Atualizações.
