@@ -15,7 +15,7 @@ Página de portifólio e contato desenvolvido em HTML CSS e JS
 
 - [X] v0.1 Bibliotecas e menu lateral.
 - [X] v0.2 Grid Layout do Main.
-- [ ] v0.3 Section Inicio.
+- [X] v0.3 Section Inicio.
 - [ ] v0.4 Section Sobre.
 - [ ] v0.5 Section Habilidades.
 - [ ] v0.6 Section Curriculum.
