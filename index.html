@@ -446,6 +446,101 @@
 
         <section id="contato">
 
+            <div class="container mb-5">
+
+                <h2 class="pt-3 pb-3 ">Contato:</h2>
+                
+                <div class="row">
+
+                    <!-- Contato Endereço -->
+                    <div class="col-md-5"data-anime="up">
+                        <!-- Campos do Endereço -->
+                        <div class="card p-5 shadow border-0">
+
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i>Localização</h4>
+                                <p>Goiania-Goiás</p>
+                            </div>
+
+                            <div class="e-mail">
+                                <h4><i class="bi bi-envelope"></i>E-mail:</h4>
+                                <p>inv72kmaster@gmail.com</p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.
+                            1653980268543!2d-49.24313518606595!3d-16.718597163794993!2m3!1f0!2f0!3f0!3m2!
+                            1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0582a694f41%3A0xe03c6e5c4e3b4fbc!2sR.
+                            %20P-2%20-%20Vila%20Redencao%2C%20Goi%C3%A2nia%20-%20GO%2C%2074850-150!
+                            5e0!3m2!1spt-BR!2sbr!4v1662522246928!5m2!1spt-BR!2sbr" 
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade" class="w-100">
+                            </iframe>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Contato Mensagem -->
+                    <div class="col-md-7 mt-5 mt-md-0" data-anime="left">
+
+                        <div class="card p-5 h-100 shadow border-0">
+                            <!-- Formulário de Mansagem -->
+                            <form class="row g-3" action='https://api.staticforms.xyz/submit' method="POST" name="formContato">
+                                <input type="hidden" name="accessKey" value="54f17208-52f3-4eaa-af72-9d4a15899c62">
+                                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#contato">
+                                <!-- Campo Nome -->
+                                <div class="col-md-6">
+                                  <label for="nome" class="form-label">Nome</label>
+                                  <input type="text" class="form-control" id="nome"  placeholder="Digite seu Nome" name="name" required maxlength="25" minlength="2">
+                                </div>
+                                <!-- Campo E-mail -->
+                                <div class="col-md-6">
+                                  <label for="email" class="form-label">E-mail</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Digite seu E-mail" name="email" required maxlength="50">
+                                </div>
+                                <!-- Campo Mensagem -->
+                                <div class="col-12">
+                                  <label for="mensagem" class="form-label" >Mensagem</label>
+                                  <textarea rows="10" type="text" class="form-control " id="mensagem" placeholder="Digite sua Mensagem." name="message" required maxlength="500"></textarea>
+                                </div>
+                                <!-- Botao Enviar -->
+                                <div  class="col-12 d-flex justify-content-center mt-4">
+                                  
+                                    <button id="btn-enviar" type="submit" class="btn btn-primary" disabled="disabled">Enviar Mensagem</button>
+                                
+                                    <button id="btn-enviar-mensagem" class="btn btn-primary" type="button" disabled>
+                                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                    Enviando...
+                                    </button>
+                            
+                                    <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <i class="bi bi-check-circle-fill"></i> Mensagem Enviada com sucesso!
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+
+
+                                </div>
+
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                                <script>
+                                    var inputs = $('input').on('keyup', verificarInputs);
+                                    function verificarInputs() {
+                                        const preenchidos = inputs.get().every(({value}) => value)
+                                        $('button').prop('disabled', !preenchidos);
+                                    }
+                                </script>
+
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
 
     </main>
